@@ -7,7 +7,6 @@ for i in range(10):
         board[i].append(random.randint(0,9))
 
 for row in board:
-    line = ""
     for num in row:
-        line += "{} ".format(num)
-    print(line)
+        print(num, end=" ")
+    print()
